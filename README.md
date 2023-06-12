@@ -1,1 +1,4 @@
-# KBC
+The project "Koun Banega Crorepati" is a console-based quiz game implemented in Python. Inspired by the popular TV show, the game challenges players with a series of multiple-choice questions. By answering these questions correctly, players can accumulate virtual winnings and progress towards becoming a virtual crorepati (millionaire).
+The core component of this project is a set of lists that store the questions and their corresponding answers. Each question is represented as a string, and the answers are matched to their respective questions at the same index in another list. This data structure allows for easy retrieval and validation of answers.
+When the game starts, players are presented with a question from the list. The question is displayed on the console, and players are prompted to enter their answer. The input function is used to gather the user's response.
+The program compares the user's answer with the correct answer stored in the list. If the answer matches, the player's score is updated, and a success message is displayed. In case of an incorrect answer, an appropriate message is shown, and the game ends.
